@@ -9,7 +9,7 @@ class Player(Turtle):
         super().__init__()
         self.penup()
         self.shape("turtle")
-        self.color("red")
+        self.color("black")
         self.go_to_start()
 
     def go_forward(self):
